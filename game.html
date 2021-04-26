@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>ROCK PAPER SCISSORS</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">User</div>
+        <div id="computer-label" class="badge">Comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock, you win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/4405/4405512.svg?token=exp=1618869060~hmac=3d6ecc63e9bc73709a7584d9a67ae22f"
+                alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/3237/3237857.svg?token=exp=1618869361~hmac=bc86ac49960c2549be51a6a0e0d59d47"
+                alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/4038/4038454.svg?token=exp=1618935375~hmac=8db26c3b789169590fe40f4cdd422443"
+                alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
